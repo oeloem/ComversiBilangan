@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Konversi Decimal to Octa"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/desi"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:text="Decimal"
+        android:textColor="@color/colorAccent"
+        android:textSize="29sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp" />
+
+    <EditText
+        android:id="@+id/desi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/bin"
+        android:layout_marginTop="59dp"
+        android:text="Masukan Decimal to Octa"
+        android:layout_alignLeft="@+id/bin" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/button2"
+        android:background="@drawable/capsule"
+        android:text="Convert"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/capsule"
+        android:text="Back"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="67dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:text="Octa"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp" />
+
+    <EditText
+        android:id="@+id/bin"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp" />
+
+</RelativeLayout>
